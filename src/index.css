@@ -1,0 +1,46 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #1163BB;
+}
+
+
+a {
+  font-weight: 500;
+  color: #FFFF;
+  text-decoration: inherit;
+  padding-bottom: 5px;
+}
+
+a:focus {
+  border-bottom: 2px solid #ffff;
+  transition: all .2s ease-in;
+  outline: none;
+}
+
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+}
+
+
+@media (max-width:640px) {
+  h1 {
+    font-size: 2em;
+    line-height: 1.1;
+  }
+  
+}
